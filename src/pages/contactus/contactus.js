@@ -1,5 +1,5 @@
 function ContactUs() {
-  return <div className="ContactUs">CountactUs</div>;
+  return <div className="ContactUs">Countact Us Page</div>;
 }
 
 export default ContactUs;

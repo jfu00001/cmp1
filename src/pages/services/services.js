@@ -1,5 +1,5 @@
 function Services() {
-  return <div className="Services">Services</div>;
+  return <div className="Services">Services Page</div>;
 }
 
 export default Services;
