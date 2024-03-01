@@ -16,7 +16,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material-next/Button";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import logo from "../Logo.svg";
+import logo from "Logo.svg";
 
 const drawerWidth = 240;
 const navItems = [
