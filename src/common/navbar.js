@@ -16,6 +16,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material-next/Button";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import logo from "../Logo.svg";
 
 const drawerWidth = 240;
 const navItems = [
@@ -37,7 +38,7 @@ function Navbar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        <img src={logo} alt="Logo" />
       </Typography>
       <Divider />
       <List>
@@ -58,19 +59,18 @@ function Navbar(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   const location = useLocation();
-  console.log(location.pathname);
 
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <AppBar component="nav">
+      <AppBar component="nav" style={{ background: "white" }}>
         <Toolbar>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
+            sx={{ mr: 2, display: { sm: "none" }, color: "#0585A6" }}
           >
             <MenuIcon />
           </IconButton>
@@ -78,19 +78,26 @@ function Navbar(props) {
             variant="h6"
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+            color="black"
           >
-            MUI
+            <img src={logo} alt="Logo" />
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
               <Link to={item[0]}>
-                <Button
-                  key={item[1]}
-                  sx={{ color: "#fff" }}
-                  variant={item[0] === location.pathname ? "filled" : "text"}
-                >
-                  {item[1]}
-                </Button>
+                {item[0] === location.pathname ? (
+                  <Button
+                    key={item[1]}
+                    sx={{ color: "white", backgroundColor: "#0585A6" }}
+                    variant="contained"
+                  >
+                    {item[1]}
+                  </Button>
+                ) : (
+                  <Button key={item[1]} sx={{ color: "black" }}>
+                    {item[1]}
+                  </Button>
+                )}
               </Link>
             ))}
           </Box>
