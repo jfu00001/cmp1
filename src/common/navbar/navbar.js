@@ -46,11 +46,10 @@ function Navbar(props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} sx={{ display: "block" }}>
+          <ListItem key={item[1]} sx={{ display: "block" }}>
             <Link to={item[0]} sx={{ display: "inherit" }}>
               {item[0] === location.pathname ? (
                 <Button
-                  key={item[1]}
                   sx={{
                     color: "white",
                     backgroundColor: "#0585A6",
@@ -61,7 +60,7 @@ function Navbar(props) {
                   {item[1]}
                 </Button>
               ) : (
-                <Button key={item[1]} sx={{ color: "black", width: "100%" }}>
+                <Button sx={{ color: "black", width: "100%" }}>
                   {item[1]}
                 </Button>
               )}
@@ -125,16 +124,13 @@ function Navbar(props) {
               <Link to={item[0]}>
                 {item[0] === location.pathname ? (
                   <Button
-                    key={item[1]}
                     sx={{ color: "white", backgroundColor: "#0585A6" }}
                     variant="contained"
                   >
                     {item[1]}
                   </Button>
                 ) : (
-                  <Button key={item[1]} sx={{ color: "black" }}>
-                    {item[1]}
-                  </Button>
+                  <Button sx={{ color: "black" }}>{item[1]}</Button>
                 )}
               </Link>
             ))}
