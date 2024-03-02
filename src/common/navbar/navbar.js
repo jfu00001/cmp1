@@ -15,17 +15,19 @@ import Button from "@mui/material-next/Button";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { isMobile } from "react-device-detect";
+import { useTranslation } from "react-i18next";
 import logo from "../../logo.svg";
 
-const navItems = [
-  ["/", "Home"],
-  ["/aboutus", "About Us"],
-  ["/services", "Services"],
-  ["/projects", "Projects"],
-  ["/contactus", "Contact Us"],
-];
-
 function Navbar(props) {
+  const { t } = useTranslation();
+  let navItems = [
+    ["/", t("navbar.home")],
+    ["/aboutus", t("navbar.about-us")],
+    ["/services", t("navbar.services")],
+    ["/projects", t("navbar.projects")],
+    ["/contactus", t("navbar.contact-us")],
+  ];
+
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const location = useLocation();
@@ -74,7 +76,7 @@ function Navbar(props) {
   const container =
     window !== undefined ? () => window().document.body : undefined;
   return (
-    <Box sx={{ display: "flex", height:"81px" }}>
+    <Box sx={{ display: "flex", height: "81px" }}>
       <CssBaseline />
       <AppBar component="nav" style={{ background: "white" }}>
         <Toolbar>
@@ -159,7 +161,7 @@ function Navbar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box height={"81px"}/>
+      <Box height={"81px"} />
     </Box>
   );
 }

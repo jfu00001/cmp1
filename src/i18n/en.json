@@ -1,0 +1,15 @@
+{
+  "translation": {
+    "navbar": {
+      "home": "Home",
+      "about-us": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "contact-us": "Contact Us"
+    },
+    "about-us": {
+      "title": "About Us",
+      "subtitle": "Get to know the team"
+    }
+  }
+}

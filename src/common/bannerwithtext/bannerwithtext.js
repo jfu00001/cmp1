@@ -1,9 +1,6 @@
 import { Typography } from "@mui/material";
 import { isMobile } from "react-device-detect";
 
-//30vw, h1, h5
-//60vw, h4, subtitle1
-
 function BannerWithText(props) {
   let styles = {};
   if (isMobile) {
