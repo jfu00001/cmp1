@@ -8,17 +8,15 @@ import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material-next/Button";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { isMobile } from "react-device-detect";
 import logo from "../logo.svg";
 
-const drawerWidth = 240;
 const navItems = [
   ["/", "Home"],
   ["/aboutus", "About Us"],
@@ -30,25 +28,44 @@ const navItems = [
 function Navbar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const location = useLocation();
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box onClick={handleDrawerToggle}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        <img src={logo} alt="Logo" />
+        <img
+          src={logo}
+          alt="Logo"
+          style={{ width: "-webkit-fill-available" }}
+        />
       </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <Link to={item[0]}>
-                <ListItemText primary={item[1]} />
-              </Link>
-            </ListItemButton>
+          <ListItem key={item} sx={{ display: "block" }}>
+            <Link to={item[0]} sx={{ display: "inherit" }}>
+              {item[0] === location.pathname ? (
+                <Button
+                  key={item[1]}
+                  sx={{
+                    color: "white",
+                    backgroundColor: "#0585A6",
+                    width: "100%",
+                  }}
+                  variant="contained"
+                >
+                  {item[1]}
+                </Button>
+              ) : (
+                <Button key={item[1]} sx={{ color: "black", width: "100%" }}>
+                  {item[1]}
+                </Button>
+              )}
+            </Link>
           </ListItem>
         ))}
       </List>
@@ -57,32 +74,53 @@ function Navbar(props) {
 
   const container =
     window !== undefined ? () => window().document.body : undefined;
-
-  const location = useLocation();
-
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar component="nav" style={{ background: "white" }}>
         <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" }, color: "#0585A6" }}
-          >
-            <MenuIcon />
-          </IconButton>
+          {isMobile ? (
+            <>
+              <Link to="/">
+                <img src={logo} alt="Mobile Logo" sx={{ height: "60px" }} />
+              </Link>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "end",
+                  width: "-webkit-fill-available",
+                }}
+              >
+                <IconButton
+                  color="inherit"
+                  aria-label="open drawer"
+                  edge="start"
+                  onClick={handleDrawerToggle}
+                  sx={{ mr: 2, display: { sm: "none" }, color: "#0585A6" }}
+                >
+                  <MenuIcon />
+                </IconButton>
+              </div>
+            </>
+          ) : null}
+
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", sm: "block" },
+              marginLeft: "10%",
+            }}
             color="black"
           >
-            <img src={logo} alt="Logo" />
+            <Link to="/">
+              <img src={logo} alt="Logo" />
+            </Link>
           </Typography>
-          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+          <Box
+            sx={{ display: { xs: "none", sm: "block" }, marginRight: "10%" }}
+          >
             {navItems.map((item) => (
               <Link to={item[0]}>
                 {item[0] === location.pathname ? (
@@ -116,7 +154,9 @@ function Navbar(props) {
             display: { xs: "block", sm: "none" },
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
-              width: drawerWidth,
+              width: "90%",
+              borderRadius: "0px 25px 25px 0px",
+              height: "90%",
             },
           }}
         >
