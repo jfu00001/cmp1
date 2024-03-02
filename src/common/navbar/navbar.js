@@ -74,7 +74,7 @@ function Navbar(props) {
   const container =
     window !== undefined ? () => window().document.body : undefined;
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", height:"81px" }}>
       <CssBaseline />
       <AppBar component="nav" style={{ background: "white" }}>
         <Toolbar>
@@ -159,9 +159,7 @@ function Navbar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
-      </Box>
+      <Box height={"81px"}/>
     </Box>
   );
 }
