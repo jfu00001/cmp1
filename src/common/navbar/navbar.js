@@ -15,7 +15,7 @@ import Button from "@mui/material-next/Button";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { isMobile } from "react-device-detect";
-import logo from "../logo.svg";
+import logo from "../../logo.svg";
 
 const navItems = [
   ["/", "Home"],
