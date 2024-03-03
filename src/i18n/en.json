@@ -15,10 +15,10 @@
       "mail": "hi@bluelagoonpoolsva.com",
       "address": "200 ROBINSON WAY WINDSOR VA 23487-9439 USA",
       "contact-us": "Contact Us",
-      "first-name": "First Name*",
-      "last-name": "Last Name*",
-      "email": "Email*",
-      "phone-number": "Phone number*",
+      "first-name": "First Name",
+      "last-name": "Last Name",
+      "email": "Email",
+      "phone-number": "Phone number",
       "message": "Message",
       "submit": "Submit"
     },
@@ -26,6 +26,12 @@
       "bannerWithText": {
         "title": "About Us",
         "subtitle": "Get to know the team"
+      }
+    },
+    "projects": {
+      "bannerWithText": {
+        "title": "Projects",
+        "subtitle": "Our finest work"
       }
     },
     "services": {
