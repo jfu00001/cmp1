@@ -17,12 +17,6 @@ const boxShadowStyle = css`
   }
 `;
 
-const flexCenterStyle = css`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
 const textStyle = css`
   font-family: "Cera Pro", sans-serif;
   color: var(--Shades-whites-white2, #f7f8f9);
@@ -125,6 +119,7 @@ const ContactUsButton = () => {
       sx={{ display: "inherit" }}
       css={css`
         margin-top: 30px;
+        margin-bottom: 50px;
       `}
     >
       <Button
@@ -164,9 +159,9 @@ const ContactInfo = () => {
           padding: 2px 4px;
           margin-top: 15px;
           @media (max-width: 991px) {
-            white-space: initial;
+            white-space: normal;
             margin-top: 30px;
-            margin-left: auto;
+            margin-left: 30px;
             margin-right: auto;
           }
         `}
@@ -181,9 +176,9 @@ const ContactInfo = () => {
           padding: 2px 4px;
           margin-top: 15px;
           @media (max-width: 991px) {
-            white-space: initial;
+            white-space: normal;
             margin-top: 30px;
-            margin-left: auto;
+            margin-left: 30px;
             margin-right: auto;
           }
         `}
@@ -195,13 +190,14 @@ const ContactInfo = () => {
         css={css`
           display: flex;
           gap: 20px;
-          padding: 0 3px;
+          padding: 2px 4px;
           margin-top: 15px;
           @media (max-width: 991px) {
-            white-space: initial;
+            white-space: normal;
             margin-top: 30px;
-            margin-left: auto;
+            margin-left: 30px;
             margin-right: auto;
+            text-align: left;
           }
         `}
       >
