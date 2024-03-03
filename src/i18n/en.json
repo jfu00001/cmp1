@@ -8,7 +8,7 @@
       "contact-us": "Contact Us"
     },
     "footer": {
-        "paragraph" : "As Washington's premier pool designer and builder, we've been trusted by thousands of homeowners to create their custom, luxury pool from the ground up."
+      "paragraph": "As Washington's premier pool designer and builder, we've been trusted by thousands of homeowners to create their custom, luxury pool from the ground up."
     },
     "contact-us": {
       "phone": "(425)-430-0000",
@@ -39,14 +39,16 @@
         "subtitle2": "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home."
       }
     },
-    "list-of-services": [
+    "list_of_services": [
       {
         "title": "Services name1",
-        "description": "1In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home."
+        "description": "1In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "showInFooter": true
       },
       {
         "title": "Services name2",
-        "description": "2In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home."
+        "description": "2In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "showInFooter": true
       },
       {
         "title": "Services name3",
@@ -54,11 +56,13 @@
       },
       {
         "title": "Services name4",
-        "description": "4In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home."
+        "description": "4In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "showInFooter": true
       },
       {
         "title": "Services name5",
-        "description": "5In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home."
+        "description": "5In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "showInFooter": true
       },
       {
         "title": "Services name6",
@@ -66,7 +70,8 @@
       },
       {
         "title": "Services name7",
-        "description": "7In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home."
+        "description": "7In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "showInFooter": true
       }
     ]
   }

@@ -135,16 +135,22 @@ const ContactUsButton = () => {
   );
 };
 
-const Services = () => (
-  <>
-    <SectionTitle>SERVICES</SectionTitle>
-    <SectionItem>Custom Pools</SectionItem>
-    <SectionItem>Custom Spas</SectionItem>
-    <SectionItem>Pool Renovations</SectionItem>
-    <SectionItem>Pool Cleaning & Maintenance</SectionItem>
-    <SectionItem>Pool Consulting</SectionItem>
-  </>
-);
+const Services = () => {
+  const { t } = useTranslation();
+  var jsonData = require("../../i18n/en.json");
+
+  return (
+    <>
+      <SectionTitle>{t("services.bannerWithText.title")}</SectionTitle>
+      {jsonData.translation.list_of_services.map((service) => {
+        if (service.showInFooter) {
+          return <SectionItem>{service.title}</SectionItem>;
+        }
+        return null;
+      })}
+    </>
+  );
+};
 
 const ContactInfo = () => {
   const { t } = useTranslation();
