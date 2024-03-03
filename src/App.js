@@ -6,6 +6,7 @@ import AboutUs from "./pages/aboutus/aboutus";
 import ContactUs from "./pages/contactus/contactus";
 import Projects from "./pages/projects/projects";
 import Services from "./pages/services/services";
+import Footer from "./common/footer/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contactus" element={<ContactUs />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

@@ -11,8 +11,8 @@ function AboutUs() {
       <Box>
         <BannerWithText
           imgSrc={BannerImage}
-          title={t("about-us.title")}
-          subtitle={t("about-us.subtitle")}
+          title={t("about-us.bannerWithText.title")}
+          subtitle={t("about-us.bannerWithText.subtitle")}
         />
       </Box>
     </>
