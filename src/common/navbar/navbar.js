@@ -19,6 +19,7 @@ import { useTranslation } from "react-i18next";
 import logo from "../../logo.svg";
 
 function Navbar(props) {
+  const navbarHeight = isMobile ? "10vh" : "10vh";
   const { t } = useTranslation();
   let navItems = [
     ["/", t("navbar.home")],
@@ -76,14 +77,14 @@ function Navbar(props) {
   const container =
     window !== undefined ? () => window().document.body : undefined;
   return (
-    <Box sx={{ display: "flex", height: "81px" }}>
+    <Box sx={{ display: "flex", height: navbarHeight }}>
       <CssBaseline />
-      <AppBar component="nav" style={{ background: "white" }}>
+      <AppBar component="nav" style={{ background: "white", height: navbarHeight }}>
         <Toolbar>
           {isMobile ? (
             <>
               <Link to="/">
-                <img src={logo} alt="Mobile Logo" sx={{ height: "60px" }} />
+                <img src={logo} alt="Mobile Logo" style={{ height: navbarHeight }} />
               </Link>
               <div
                 style={{
@@ -161,7 +162,7 @@ function Navbar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box height={"81px"} />
+      <Box height={navbarHeight} />
     </Box>
   );
 }

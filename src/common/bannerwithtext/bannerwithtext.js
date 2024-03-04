@@ -4,9 +4,9 @@ import { isMobile } from "react-device-detect";
 function BannerWithText(props) {
   let styles = {};
   if (isMobile) {
-    styles = { height: "60vw", title: "h4", subtitle: "subtitle1" };
+    styles = { height: "40vh", title: "h4", subtitle: "subtitle1" };
   } else {
-    styles = { height: "30vw", title: "h1", subtitle: "h5" };
+    styles = { height: "65vh", title: "h1", subtitle: "h5" };
   }
 
   return (
