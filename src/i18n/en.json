@@ -18,6 +18,16 @@
         "p1": "Why do something run-of-the-mill when you can create something magnificent? Put your personal stamp on a custom designed swimming pool. If you can dream it, we can build it!",
         "p2": "From traditional water-line tile pools and lap pools to high-end vanishing edge pools with rock grottos, waterfalls, and slides, our design experts can bring your vision to life. Natural Creations offers you the opportunity to build something that's uniquely yours.",
         "buttonText": "More About Us"
+      },
+      "poolService": {
+        "customPools": "CUSTOM POOLS",
+        "customSpas": "CUSTOM SPAS",
+        "renovations": "RENOVATIONS",
+        "cleanAndMaintenance": "CLEANING & MAINTENANCE",
+        "title": "Experts in Swimming Pool Building & Renovation",
+        "p1": "As Washington's premier pool designer and builder, we've been trusted by thousands of homeowners to create their custom, luxury pool from the ground up. Our pools and spas are built to last and provide families with many years of backyard enjoyment.",
+        "p2": "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "ourService": "Our Services"
       }
     },
     "contact-us": {
