@@ -165,7 +165,6 @@ function PoolServices(props) {
             </div>
           </div>
         </div>
-        {console.log(props.hasOwnProperty("ourService"))}
         {props.hasOwnProperty("ourService") ? (
           <Link to="/services">
             <div
