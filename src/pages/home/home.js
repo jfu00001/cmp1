@@ -66,6 +66,7 @@ function Home() {
       </div>
 
       <ServiceSection
+        serviceItemsDisplay="flex"
         serviceItems={serviceItems}
         title={t("home.poolService.title")}
         p1={t("home.poolService.p1")}

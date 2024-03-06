@@ -76,7 +76,7 @@ function PoolServices(props) {
         <div
           css={css`
             justify-content: center;
-            display: flex;
+            display: ${props.serviceItemsDisplay};
             @media (max-width: 991px) {
               max-width: 100%;
               padding: 0 20px;
