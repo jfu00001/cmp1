@@ -21,7 +21,6 @@ function Services() {
         title={t("home.poolService.title")}
         p1={t("home.poolService.p1")}
         p2={t("home.poolService.p2")}
-        ourService={t("home.poolService.ourService")}
       />
     </>
   );

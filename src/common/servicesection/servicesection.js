@@ -165,26 +165,29 @@ function PoolServices(props) {
             </div>
           </div>
         </div>
-        <Link to="/services">
-          <div
-            css={css`
-              width: fit-content;
-              border-radius: var(--radius-lg-max-circle, 100px);
-              background-color: var(--Brand-colors-deep_blue, #0c85a7);
-              margin-top: 35px;
-              color: var(--color-typography-on-color---white, #fff);
-              padding: 8px 24px;
-              font: 400 16px/150% "Cera Pro", sans-serif;
-              margin-left: auto;
-              margin-right: auto;
-              @media (max-width: 991px) {
-                margin-bottom: 30px;
-              }
-            `}
-          >
-            {props.ourService}
-          </div>
-        </Link>
+        {console.log(props.hasOwnProperty("ourService"))}
+        {props.hasOwnProperty("ourService") ? (
+          <Link to="/services">
+            <div
+              css={css`
+                width: fit-content;
+                border-radius: var(--radius-lg-max-circle, 100px);
+                background-color: var(--Brand-colors-deep_blue, #0c85a7);
+                margin-top: 35px;
+                color: var(--color-typography-on-color---white, #fff);
+                padding: 8px 24px;
+                font: 400 16px/150% "Cera Pro", sans-serif;
+                margin-left: auto;
+                margin-right: auto;
+                @media (max-width: 991px) {
+                  margin-bottom: 30px;
+                }
+              `}
+            >
+              {props.ourService}
+            </div>
+          </Link>
+        ) : null}
       </div>
     </section>
   );
