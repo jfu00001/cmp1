@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { Link } from "react-router-dom";
 
 // Customized styling
 const mainContainer = css`
@@ -44,23 +43,13 @@ const textStyles = css`
     margin-top: 20px;
   }
 `;
+const TextBlock = ({ content }) => (
+  <p css={{ font: "300 16px/24px Inter, sans-serif", marginBottom: "24px" }}>
+    {content}
+  </p>
+);
 
-const buttonStyle = css`
-  width: 10vw;
-  border-radius: 100px;
-  background-color: var(--Brand-colors-deep_blue, #0c85a7);
-  color: #fff;
-  text-align: center;
-  line-height: 150%;
-  padding: 8px 24px;
-  @media (max-width: 991px) {
-    width: 40vw;
-    padding: 8px 20px;
-    margin: 20px 0 20px 0;
-  }
-`;
-
-function PoolDesignInfo(props) {
+function AboutPageInfo(props) {
   return (
     <section css={mainContainer}>
       <div css={contentContainer}>
@@ -135,14 +124,24 @@ function PoolDesignInfo(props) {
             >
               {props.p2}
             </p>
-            <Link to="/aboutus" css={css`text-align: center;}`}>
-              <button css={buttonStyle}> {props.buttonText}</button>
-            </Link>
           </div>
+        </div>
+        <div>
+          <section
+            css={{
+              alignSelf: "stretch",
+              color: "var(--Shades-blacks-black, #010A0D)",
+              marginTop: "20px",
+            }}
+          >
+            {props.textBlocks.map((block, index) => (
+              <TextBlock key={index} content={block} />
+            ))}
+          </section>
         </div>
       </div>
     </section>
   );
 }
 
-export default PoolDesignInfo;
+export default AboutPageInfo;
