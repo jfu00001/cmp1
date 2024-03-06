@@ -18,9 +18,9 @@ function Services() {
       <ServiceSection
         serviceItemsDisplay="flex"
         serviceItems={[]}
-        title={t("home.poolService.title")}
-        p1={t("home.poolService.p1")}
-        p2={t("home.poolService.p2")}
+        title={t("services.poolService.title")}
+        p1={t("services.poolService.p1")}
+        p2={t("services.poolService.p2")}
       />
     </>
   );

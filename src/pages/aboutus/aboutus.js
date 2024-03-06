@@ -10,7 +10,7 @@ import AboutPageInfoImage from "./aboutInfo.png";
 function AboutUs() {
   const { t } = useTranslation();
 
-  const textBlocks = [t("services.p3"), t("services.p4"), t("services.p5")];
+  const textBlocks = [t("about-us.p3"), t("about-us.p4"), t("about-us.p5")];
 
   return (
     <>
@@ -32,10 +32,10 @@ function AboutUs() {
         <AboutPageInfo
           textBlocks={textBlocks}
           imageSrc={AboutPageInfoImage}
-          blueTitle={t("home.poolDesignInfo.blueTitle")}
-          title={t("home.poolDesignInfo.title")}
-          p1={t("home.poolDesignInfo.p1")}
-          p2={t("home.poolDesignInfo.p2")}
+          blueTitle={t("about-us.poolDesignInfo.blueTitle")}
+          title={t("about-us.poolDesignInfo.title")}
+          p1={t("about-us.poolDesignInfo.p1")}
+          p2={t("about-us.poolDesignInfo.p2")}
         />
       </div>
     </>

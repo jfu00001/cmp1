@@ -57,21 +57,21 @@ function Home() {
       >
         <PoolDesignInfo
           imageSrc={PoolDesignInfoImage}
-          blueTitle={t("home.poolDesignInfo.blueTitle")}
-          title={t("home.poolDesignInfo.title")}
-          p1={t("home.poolDesignInfo.p1")}
-          p2={t("home.poolDesignInfo.p2")}
-          buttonText={t("home.poolDesignInfo.buttonText")}
+          blueTitle={t("about-us.poolDesignInfo.blueTitle")}
+          title={t("about-us.poolDesignInfo.title")}
+          p1={t("about-us.poolDesignInfo.p1")}
+          p2={t("about-us.poolDesignInfo.p2")}
+          buttonText={t("about-us.poolDesignInfo.buttonText")}
         />
       </div>
 
       <ServiceSection
         serviceItemsDisplay="flex"
         serviceItems={serviceItems}
-        title={t("home.poolService.title")}
-        p1={t("home.poolService.p1")}
-        p2={t("home.poolService.p2")}
-        ourService={t("home.poolService.ourService")}
+        title={t("services.poolService.title")}
+        p1={t("services.poolService.p1")}
+        p2={t("services.poolService.p2")}
+        ourService={t("hservicesome.poolService.ourService")}
       />
     </>
   );

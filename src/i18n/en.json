@@ -11,24 +11,7 @@
       "paragraph": "As Washington's premier pool designer and builder, we've been trusted by thousands of homeowners to create their custom, luxury pool from the ground up."
     },
     "home": {
-      "carousel-title": "Build Your Dream Swimming Pool",
-      "poolDesignInfo": {
-        "blueTitle": "30+ YEARS OF AWARD-WINNING POOL DESIGN & CONSTRUCTION",
-        "title": "Custom Swimming Pools and Spas for Every Lifestyle",
-        "p1": "Why do something run-of-the-mill when you can create something magnificent? Put your personal stamp on a custom designed swimming pool. If you can dream it, we can build it!",
-        "p2": "From traditional water-line tile pools and lap pools to high-end vanishing edge pools with rock grottos, waterfalls, and slides, our design experts can bring your vision to life. Natural Creations offers you the opportunity to build something that's uniquely yours.",
-        "buttonText": "More About Us"
-      },
-      "poolService": {
-        "customPools": "CUSTOM POOLS",
-        "customSpas": "CUSTOM SPAS",
-        "renovations": "RENOVATIONS",
-        "cleanAndMaintenance": "CLEANING & MAINTENANCE",
-        "title": "Experts in Swimming Pool Building & Renovation",
-        "p1": "As Washington's premier pool designer and builder, we've been trusted by thousands of homeowners to create their custom, luxury pool from the ground up. Our pools and spas are built to last and provide families with many years of backyard enjoyment.",
-        "p2": "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
-        "ourService": "Our Services"
-      }
+      "carousel-title": "Build Your Dream Swimming Pool"
     },
 
     "contact-us": {
@@ -47,7 +30,17 @@
       "bannerWithText": {
         "title": "About Us",
         "subtitle": "Get to know the team"
-      }
+      },
+      "poolDesignInfo": {
+        "blueTitle": "30+ YEARS OF AWARD-WINNING POOL DESIGN & CONSTRUCTION",
+        "title": "Custom Swimming Pools and Spas for Every Lifestyle",
+        "p1": "With a legacy dating back to 1985, our team has honed the art of crafting custom pools that exceed expectations. Beyond pools, we elevate your entire backyard experience – from enchanting fireplaces and fire pits to meticulous fence installations and driveways. You can read more on the services we provide here.",
+        "p2": "Blue Lagoon is currently based in Virginia Beach,VA and here is where expertise meets creativity in transforming your outdoor space into a haven of relaxation and entertainment.",
+        "buttonText": "More About Us"
+      },
+      "p3": "With over 3500 successfully completed projects, we take pride in turning your outdoor dreams into stunning realities.",
+      "p4": "The philosophy of our company rests upon principles of organization, unwavering consistency, and reliability, all geared towards delivering top-tier services. We seamlessly manage every aspect of your project – from conceptual design and procurement of equipment and materials to construction and ongoing maintenance.",
+      "p5": "By choosing Blue Lagoon you get to experience high-end expertise in pool craftsmanship and a longstanding commitment to perfecting every aspect of your pool."
     },
     "projects": {
       "bannerWithText": {
@@ -65,9 +58,16 @@
         "subtitle1": "As Washington's premier pool designer and builder, we've been trusted by thousands of homeowners to create their custom, luxury pool from the ground up. Our pools and spas are built to last and provide families with many years of backyard enjoyment.",
         "subtitle2": "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home."
       },
-      "p3": "Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum.",
-      "p4": "Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.",
-      "p5": "Pulvinar blandit velit, id condimentum diam faucibus at. Aliquam lacus nisi, sollicitudin at nisi nec, fermentum congue felis. Quisque mauris dolor, fringilla sed tincidunt, finibus non odio. Sed vitae mauris nec ante pretium finibus. Donec nisl neque, pharetra ac elit eu, faucibus aliquam ligula. Nullam dictum, tellus tincidunt tempor laoreet, nibh elit sollicitudin felis, eget feugiat sapien diam nec nisl. Aenean gravida turpis nisi, consequat dictum risus dapibus a. Duis felis ante, varius in neque eu, tempor suscipit sem. Maecenas ullamcorper gravida sem sit amet cursus. Etiam pulvinar purus vitae justo pharetra consequat. Mauris id mi ut arcu feugiat maximus. Mauris consequat tellus id tempus aliquet."
+      "poolService": {
+        "customPools": "CUSTOM POOLS",
+        "customSpas": "CUSTOM SPAS",
+        "renovations": "RENOVATIONS",
+        "cleanAndMaintenance": "CLEANING & MAINTENANCE",
+        "title": "Experts in Swimming Pool Building & Renovation",
+        "p1": "As Washington's premier pool designer and builder, we've been trusted by thousands of homeowners to create their custom, luxury pool from the ground up. Our pools and spas are built to last and provide families with many years of backyard enjoyment.",
+        "p2": "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "ourService": "Our Services"
+      }
     },
     "list_of_services": [
       {
