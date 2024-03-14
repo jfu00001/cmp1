@@ -61,7 +61,7 @@ function PoolServices(props) {
         display: flex;
         padding: 50px 60px;
         @media (max-width: 991px) {
-          padding: 0 20px;
+          padding: 20px 20px;
         }
       `}
     >

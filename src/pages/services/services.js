@@ -3,6 +3,7 @@ import BannerWithText from "../../common/bannerwithtext/bannerwithtext";
 import { Box } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import ServiceSection from "../../common/servicesection/servicesection";
+import ServiceList from "../../common/servicelist/servicelist";
 function Services() {
   const { t } = useTranslation();
 
@@ -22,6 +23,7 @@ function Services() {
         p1={t("services.poolService.p1")}
         p2={t("services.poolService.p2")}
       />
+      <ServiceList />
     </>
   );
 }
