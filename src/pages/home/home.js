@@ -20,23 +20,23 @@ function Home() {
   const serviceItems = [
     {
       src: PoolIcon,
-      alt: t("home.poolService.customPools"),
-      text: t("home.poolService.customPools"),
+      alt: t("services.poolService.customPools"),
+      text: t("services.poolService.customPools"),
     },
     {
       src: SpaIcon,
-      alt: t("home.poolService.customSpas"),
-      text: t("home.poolService.customSpas"),
+      alt: t("services.poolService.customSpas"),
+      text: t("services.poolService.customSpas"),
     },
     {
       src: RenovationIcon,
-      alt: t("home.poolService.renovations"),
-      text: t("home.poolService.renovations"),
+      alt: t("services.poolService.renovations"),
+      text: t("services.poolService.renovations"),
     },
     {
       src: MaintenanceIcon,
-      alt: t("home.poolService.cleanAndMaintenance"),
-      text: t("home.poolService.cleanAndMaintenance"),
+      alt: t("services.poolService.cleanAndMaintenance"),
+      text: t("services.poolService.cleanAndMaintenance"),
     },
   ];
 

@@ -1,3 +1,5 @@
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
 import * as React from "react";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
@@ -14,12 +16,10 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material-next/Button";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import { isMobile } from "react-device-detect";
 import { useTranslation } from "react-i18next";
 import logo from "../../logo.svg";
 
 function Navbar(props) {
-  const navbarHeight = isMobile ? "10vh" : "10vh";
   const { t } = useTranslation();
   let navItems = [
     ["/", t("navbar.home")],
@@ -77,43 +77,46 @@ function Navbar(props) {
   const container =
     window !== undefined ? () => window().document.body : undefined;
   return (
-    <Box sx={{ display: "flex", height: navbarHeight }}>
+    <Box sx={{ display: "flex", height: "10vh" }}>
       <CssBaseline />
-      <AppBar component="nav" style={{ background: "white", height: navbarHeight }}>
-        <Toolbar>
-          {isMobile ? (
-            <>
-              <Link to="/">
-                <img src={logo} alt="Mobile Logo" style={{ height: navbarHeight }} />
-              </Link>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "end",
-                  width: "-webkit-fill-available",
-                }}
+      <AppBar component="nav" style={{ background: "white", height: "10vh" }}>
+        <Toolbar style={{ height: "10vh" }}>
+          <Box sx={{ display: { xs: "flex", md: "none" }, width: "100%" }}>
+            <Link to="/">
+              <img src={logo} alt="Mobile Logo" style={{ height: "10vh" }} />
+            </Link>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "end",
+                width: "-webkit-fill-available",
+              }}
+            >
+              <IconButton
+                color="inherit"
+                aria-label="open drawer"
+                edge="start"
+                onClick={handleDrawerToggle}
+                sx={{ mr: 2, display: { md: "none" }, color: "#0585A6" }}
               >
-                <IconButton
-                  color="inherit"
-                  aria-label="open drawer"
-                  edge="start"
-                  onClick={handleDrawerToggle}
-                  sx={{ mr: 2, display: { sm: "none" }, color: "#0585A6" }}
-                >
-                  <MenuIcon />
-                </IconButton>
-              </div>
-            </>
-          ) : null}
+                <MenuIcon />
+              </IconButton>
+            </div>
+          </Box>
 
           <Typography
             variant="h6"
             component="div"
             sx={{
               flexGrow: 1,
-              display: { xs: "none", sm: "block" },
-              marginLeft: "10%",
+              display: { xs: "none", md: "block" },
+              marginLeft: "7%",
             }}
+            css={css`
+              @media (max-width: 991px) {
+                margin-right: 0;
+              }
+            `}
             color="black"
           >
             <Link to="/">
@@ -121,7 +124,12 @@ function Navbar(props) {
             </Link>
           </Typography>
           <Box
-            sx={{ display: { xs: "none", sm: "block" }, marginRight: "10%" }}
+            sx={{ display: { xs: "none", md: "block" }, marginRight: "7%" }}
+            css={css`
+              @media (max-width: 991px) {
+                margin-right: 0;
+              }
+            `}
           >
             {navItems.map((item) => (
               <Link to={item[0]}>
@@ -150,7 +158,7 @@ function Navbar(props) {
             keepMounted: true, // Better open performance on mobile.
           }}
           sx={{
-            display: { xs: "block", sm: "none" },
+            display: { xs: "block", md: "none" },
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: "90%",
@@ -162,7 +170,7 @@ function Navbar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box height={navbarHeight} />
+      <Box height="10vh" />
     </Box>
   );
 }
