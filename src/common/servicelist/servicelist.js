@@ -36,6 +36,7 @@ const ServiceCard = ({ title, description }) => (
       css={css`
         margin-top: 8px;
         font: 300 16px/24px Cera Pro, sans-serif;
+        white-space: pre-line;
       `}
     >
       {description}
@@ -43,53 +44,26 @@ const ServiceCard = ({ title, description }) => (
   </div>
 );
 
-const servicesData1 = [
-  {
-    title: "Service name",
-    description:
-      "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
-  },
-  {
-    title: "Service name",
-    description:
-      "In addition to new pool designs, we also do pool renovations, from resurfacing the",
-  },
-  {
-    title: "Service name",
-    description:
-      "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
-  },
-  {
-    title: "Service name",
-    description:
-      "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired,",
-  },
-];
-const servicesData2 = [
-  {
-    title: "Service name",
-    description:
-      "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
-  },
-  {
-    title: "Service name",
-    description:
-      "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
-  },
-  {
-    title: "Service name",
-    description:
-      "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
-  },
-];
+function ServiceList() {
+  var jsonData = require("../../i18n/en.json");
+  let servicesData1 = [];
+  let servicesData2 = [];
+  jsonData.translation.list_of_services.map((service, index) => {
+    if(index<3){
+      servicesData1.push(service);
+    }
+    else {
+      servicesData2.push(service);
+    }
+    return true;
+  });
 
-function ServiceList(props) {
   return (
     <section>
       <div
         css={css`
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
           gap: 20px;
           margin: 50px 10vw;
           @media (max-width: 991px) {
@@ -129,7 +103,7 @@ function ServiceList(props) {
       <div
         css={css`
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
           gap: 20px;
           margin: 50px 10vw;
           @media (max-width: 991px) {
@@ -149,7 +123,7 @@ function ServiceList(props) {
                 display: flex;
                 flex-direction: column;
                 line-height: normal;
-                ${'' /* width: 25%; */}
+                ${"" /* width: 25%; */}
                 margin-left: ${index === 0 ? "0px" : "20px"};
 
                 @media (max-width: 991px) {

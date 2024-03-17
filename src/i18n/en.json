@@ -71,36 +71,33 @@
     },
     "list_of_services": [
       {
-        "title": "Services name1",
-        "description": "1In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "title": "Liner and Fiberglass Pools",
+        "description": "Liner and fiberglass pools involve the creation of swimming pools using either liners or fiberglass. This service encompasses the entire process from A to Z, from design to installation, with the added benefit of providing 3D designs to visualize the final outcome. By constructing a brand-new pool, customers can expect comprehensive solutions tailored to their preferences and needs. The incorporation of 3D designs allows clients to explore various options and make informed decisions before the actual installation begins, ensuring satisfaction with the final result.",
         "showInFooter": true
       },
       {
-        "title": "Services name2",
-        "description": "2In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "title": "Liner Replacement",
+        "description": "A pool liner replacement involves removing the existing liner of a swimming pool and installing a new one. This is typically done when the current liner is damaged, worn out, or no longer functioning properly. It's a process that requires draining the pool, removing the old liner, preparing the pool surface, and then installing the new liner with precision to ensure a watertight seal.",
         "showInFooter": true
       },
       {
-        "title": "Services name3",
-        "description": "3In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home."
-      },
-      {
-        "title": "Services name4",
-        "description": "4In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "title": "Pool Services",
+        "description": "We offer a range of pool services that aim at maintaining and enhancing the functionality and enjoyment of swimming pools.\n - Opening and closing(mechanical only).\n - Filter and Pump Upgrade & Repairs.\n - Salt system installation.\n - Automatic and Safety cover sales, replacements & repairs.\n - Pool Heater installation & repairs.",
         "showInFooter": true
       },
       {
-        "title": "Services name5",
-        "description": "5In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "title": "Driveway Makeover",
+        "description": "Our driveway makeover service entails the redesign and installation of both new and existing driveways to enhance their aesthetic appeal and functionality. This comprehensive service covers everything from conceptualizing new driveway designs to installing them on both freshly constructed surfaces and older driveways in need of renovation. By offering solutions for both new and old driveways, we cater to homeowners looking to improve their property's curb appeal and usability while accommodating a range of preferences and budgets.",
         "showInFooter": true
       },
       {
-        "title": "Services name6",
-        "description": "6In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home."
+        "title": "Patio & Outdoor Kitchen",
+        "description": "This service involves the redesign and/or installation of outdoor living spaces, including patios and kitchen areas, to enhance their appearance and functionality. It includes the creation of 3D designs to visualize the proposed changes before installation begins. Whether it's revamping an existing patio or creating a brand-new outdoor kitchen, our team provides expertise in design, material selection, and installation to ensure a seamless and visually appealing result. Our goal is to transform outdoor spaces into inviting and functional areas for relaxation, entertainment, and culinary enjoyment.",
+        "showInFooter": true
       },
       {
-        "title": "Services name7",
-        "description": "7In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
+        "title": "Fireplace & Firepit",
+        "description": "A fireplace and fire pit design and installation service involve the creation of custom-designed outdoor fire features tailored to enhance the ambiance and functionality of a space. We aim to create a focal point that adds warmth, ambiance, and value to the property while fostering memorable experiences for homeowners and their guests.",
         "showInFooter": true
       }
     ]
