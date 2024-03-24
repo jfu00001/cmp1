@@ -4,20 +4,32 @@ import { Container, Box, TextField, Typography, Button } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import { isMobile } from "react-device-detect";
 import ContactInfo from "../../common/contactInfo/contactInfo";
-
-
+import emailjs from "@emailjs/browser";
+import { useRef } from 'react';
+import configData from "../../config.json";
 
 const ContactUs = () => {
+  const form = useRef();
   const handleSubmit = (event) => {
     event.preventDefault();
-    const formData = new FormData(event.currentTarget);
-    console.log({
-      firstName: formData.get("firstName"),
-      lastName: formData.get("lastName"),
-      email: formData.get("email"),
-      phoneNumber: formData.get("phoneNumber"),
-      message: formData.get("message"),
-    });
+    emailjs
+      .sendForm(
+        configData.serviceID,
+        configData.templateID,
+        form.current,
+        {
+          publicKey: configData.publicKey,
+        }
+      )
+      .then(
+        () => {
+          alert("SUCCESS!");
+        },
+        (error) => {
+          console.log(error)
+          alert("FAILED...", error.text);
+        }
+      );
   };
 
   const { t } = useTranslation();
@@ -26,6 +38,7 @@ const ContactUs = () => {
     <Container>
       <Box
         component="form"
+        ref={form}
         onSubmit={handleSubmit}
         sx={{ mt: 10, mb: 10, pt: 5, pb: 5, pl: 5, pr: 5 }}
         style={{
