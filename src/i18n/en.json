@@ -11,7 +11,11 @@
       "paragraph": "Blue Lagoon is currently based in Virginia Beach, VA and here is where expertise meets creativity in transforming your outdoor space into a heaven of relaxation and entertainment.\n\nCurrently operating in all Tidewater Area."
     },
     "home": {
-      "carousel-title": "Build Your Dream Swimming Pool"
+      "carousel-title": "Build Your Dream Swimming Pool",
+      "latest-project": {
+        "title": "Latest Projects",
+        "see-more-here": "See more here"
+      }
     },
 
     "contact-us": {
