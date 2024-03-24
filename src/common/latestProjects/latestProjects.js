@@ -5,7 +5,6 @@ import CardMedia from "@mui/material/CardMedia";
 import { Link } from "react-router-dom";
 
 function LatestProjects(props) {
-
   return (
     <section
       css={css`
@@ -74,7 +73,7 @@ function LatestProjects(props) {
             >
               <CardMedia
                 css={css`
-                  aspect-ratio: 4 / 5;
+                  aspect-ratio: 5 / 4;
                 `}
                 image={project.imageSrc}
               />

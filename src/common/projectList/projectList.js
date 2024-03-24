@@ -24,7 +24,6 @@ const PoolCard = ({ imageSrc }) => (
 );
 
 function ProjectList(props) {
-    console.log(props)
   return (
     <Container
       css={css`
