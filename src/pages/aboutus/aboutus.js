@@ -34,6 +34,7 @@ function AboutUs() {
           title={t("about-us.poolDesignInfo.title")}
           p1={t("about-us.poolDesignInfo.p1")}
           p2={t("about-us.poolDesignInfo.p2")}
+          p3={t("about-us.poolDesignInfo.p3")}
           rest={t("about-us.poolDesignInfo.rest")}
         />
       </div>

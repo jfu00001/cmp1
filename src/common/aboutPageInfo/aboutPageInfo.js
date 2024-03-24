@@ -103,6 +103,16 @@ function AboutPageInfo(props) {
                 line-height: 24px;
               `}
             >
+              {props.p3}
+            </p>
+
+            <p
+              css={css`
+                ${textStyles}
+                font-family: 'Inter', sans-serif;
+                line-height: 24px;
+              `}
+            >
               {props.rest}
             </p>
           </div>

@@ -110,6 +110,15 @@ function PoolDesignInfo(props) {
             >
               {props.p2}
             </p>
+            <p
+              css={css`
+                ${textStyles}
+                font-family: 'Inter', sans-serif;
+                line-height: 24px;
+              `}
+            >
+              {props.p3}
+            </p>
             <Link to="/aboutus" css={css`text-align: left;}`}>
               <button css={buttonStyle}> {props.buttonText}</button>
             </Link>
