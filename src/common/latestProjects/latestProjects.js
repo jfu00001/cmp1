@@ -11,7 +11,7 @@ function LatestProjects(props) {
         justify-content: center;
         align-items: center;
         border-radius: 12px;
-        box-shadow: 0 4px 5px 6px rgba(0, 0, 0, 0.12);
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px 0px;
         background-color: var(--Shades-whites-white, #fff);
         display: flex;
         flex-direction: column;

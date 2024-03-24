@@ -36,8 +36,7 @@ const ContactUs = () => {
         onSubmit={handleSubmit}
         sx={{ mt: 10, mb: 10, pt: 5, pb: 5, pl: 5, pr: 5 }}
         style={{
-          boxShadow:
-            "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+          boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.12)",
           borderRadius: "10px",
         }}
       >

@@ -12,7 +12,7 @@ import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 
 // Define general reusable styles
 const boxShadowStyle = css`
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px 0px;
   @media (max-width: 991px) {
     padding: 0 20px;
   }
@@ -128,6 +128,7 @@ const ContactUsButton = () => {
           backgroundColor: "#0c85a7",
         }}
         variant="contained"
+        style={{ fontFamily: "CeraPro-Regular" }}
       >
         {t("contact-us.contact-us")}
       </Button>

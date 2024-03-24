@@ -63,6 +63,7 @@ function Navbar(props) {
                     width: "100%",
                   }}
                   variant="contained"
+                  style={{ fontFamily: "CeraPro-Regular" }}
                 >
                   {item[1]}
                 </Button>
@@ -142,6 +143,7 @@ function Navbar(props) {
                   <Button
                     sx={{ color: "white", backgroundColor: "#0585A6" }}
                     variant="contained"
+                    style={{ fontFamily: "CeraPro-Regular" }}
                   >
                     {item[1]}
                   </Button>
