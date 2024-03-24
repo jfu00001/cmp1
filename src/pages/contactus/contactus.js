@@ -1,3 +1,5 @@
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
 import * as React from "react";
 import { Container, Box, TextField, Typography, Button } from "@mui/material";
 import { useTranslation } from "react-i18next";
@@ -105,7 +107,23 @@ const ContactUs = () => {
           />
         </Box>
         <Box sx={{ mt: 3, display: "flex", justifyContent: "flex-end" }}>
-          <Button type="submit" variant="contained">
+          <Button
+            css={css`
+              margin-top: 24px;
+              padding: 8px 24px;
+              border-radius: var(--radius-lg-max-circle, 100px);
+              background-color: var(--Brand-colors-deep_blue, #0c85a7);
+              color: var(--color-typography-on-color---white, #fff);
+              font: 16px/150% CeraPro-Regular;
+
+              @media (max-width: 991px) {
+                padding: 10px 20px;
+                margin-bottom: 15px;
+              }
+            `}
+            type="submit"
+            variant="contained"
+          >
             {t("contact-us.submit")}
           </Button>
         </Box>
