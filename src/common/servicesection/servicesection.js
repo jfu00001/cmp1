@@ -13,7 +13,8 @@ const BorderedText = ({ children }) => (
       padding: 8px 24px;
 
       @media (max-width: 991px) {
-        padding: 0 20px;
+        padding: 6px 20px;
+        white-space: nowrap;
       }
     `}
   >
@@ -41,10 +42,12 @@ function ServiceSection(props) {
       <h1
         css={css`
           color: var(--Shades-blacks-black, #010a0d);
-          font: 300 34px/129% Cera Pro, sans-serif;
+          font: 34px "Cera Pro", sans-serif;
 
           @media (max-width: 991px) {
             max-width: 100%;
+            padding-top: 20px;
+            font: 24px "Cera Pro", sans-serif;
           }
         `}
       >
@@ -78,7 +81,9 @@ function ServiceSection(props) {
               color: var(--Shades-blacks-black, #010a0d);
 
               @media (max-width: 991px) {
+                grid-template-columns: 1fr;
                 flex-wrap: wrap;
+                gap: 15px;
               }
             `}
           >
@@ -95,7 +100,9 @@ function ServiceSection(props) {
               color: var(--Shades-blacks-darker, #1a2426);
 
               @media (max-width: 991px) {
+                grid-template-columns: 1fr;
                 flex-wrap: wrap;
+                gap: 15px;
               }
             `}
           >
@@ -116,7 +123,8 @@ function ServiceSection(props) {
             font: 16px/150% Cera Pro, sans-serif;
 
             @media (max-width: 991px) {
-              padding: 0 20px;
+              padding: 10px 20px;
+              margin-bottom: 15px;
             }
           `}
         >
