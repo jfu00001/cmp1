@@ -33,8 +33,6 @@ function Projects() {
         });
         var images = [];
         projectImagePath.map((path) => images.push(require("./imgs/" + path)));
-        console.log(project);
-        console.log(images);
         return <ProjectList images={images} title={project} />;
       })}
     </>
