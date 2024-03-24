@@ -45,18 +45,16 @@ const textStyles = css`
 `;
 
 const buttonStyle = css`
-  width: fit-content;
-  border-radius: 100px;
-  background-color: var(--Brand-colors-deep_blue, #0c85a7);
-  color: #fff;
-  text-align: center;
-  line-height: 150%;
+  margin-top: 24px;
   padding: 8px 24px;
-  font-family: "CeraPro-Regular";
+  border-radius: var(--radius-lg-max-circle, 100px);
+  background-color: var(--Brand-colors-deep_blue, #0c85a7);
+  color: var(--color-typography-on-color---white, #fff);
+  font: 16px/150% CeraPro-Regular;
+
   @media (max-width: 991px) {
-    width: 40vw;
-    padding: 8px 20px;
-    margin: 20px 0 20px 0;
+    padding: 10px 20px;
+    margin-bottom: 15px;
   }
 `;
 
