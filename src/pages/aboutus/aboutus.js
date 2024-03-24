@@ -5,7 +5,6 @@ import BannerWithText from "../../common/bannerwithtext/bannerwithtext";
 import { Box } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import AboutPageInfo from "../../common/aboutPageInfo/aboutPageInfo";
-import AboutPageInfoImage from "./aboutInfo.png";
 
 function AboutUs() {
   const { t } = useTranslation();
@@ -31,11 +30,11 @@ function AboutUs() {
       >
         <AboutPageInfo
           textBlocks={textBlocks}
-          imageSrc={AboutPageInfoImage}
           blueTitle={t("about-us.poolDesignInfo.blueTitle")}
           title={t("about-us.poolDesignInfo.title")}
           p1={t("about-us.poolDesignInfo.p1")}
           p2={t("about-us.poolDesignInfo.p2")}
+          rest={t("about-us.poolDesignInfo.rest")}
         />
       </div>
     </>

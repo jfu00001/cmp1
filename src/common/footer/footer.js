@@ -8,6 +8,7 @@ import Button from "@mui/material-next/Button";
 import HomeIcon from "@mui/icons-material/Home";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
+import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 
 // Define general reusable styles
 const boxShadowStyle = css`
@@ -101,6 +102,7 @@ const PoolDesignerInfo = () => {
             font-size: 20px;
             font-weight: 400;
             line-height: 30px;
+            white-space: pre-line;
           `,
         ]}
       >
@@ -209,6 +211,25 @@ const ContactInfo = () => {
       >
         <HomeIcon style={{ color: "white" }} />
         <div css={contactTextStyle}>{t("contact-us.address")}</div>
+      </div>
+      <div
+        css={css`
+          display: flex;
+          gap: 20px;
+          padding: 2px 4px;
+          margin-top: 15px;
+          white-space: pre-line;
+          @media (max-width: 991px) {
+            white-space: normal;
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-right: auto;
+            text-align: left;
+          }
+        `}
+      >
+        <AccessTimeFilledIcon style={{ color: "white" }} />
+        <div css={contactTextStyle}>{t("contact-us.work-time")}</div>
       </div>
       <ContactUsButton />
     </>

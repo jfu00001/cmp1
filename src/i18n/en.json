@@ -8,16 +8,17 @@
       "contact-us": "Contact Us"
     },
     "footer": {
-      "paragraph": "As Washington's premier pool designer and builder, we've been trusted by thousands of homeowners to create their custom, luxury pool from the ground up."
+      "paragraph": "Blue Lagoon is currently based in Virginia Beach, VA and here is where expertise meets creativity in transforming your outdoor space into a heaven of relaxation and entertainment.\n\nCurrently operating in all Tidewater Area."
     },
     "home": {
       "carousel-title": "Build Your Dream Swimming Pool"
     },
 
     "contact-us": {
-      "phone": "757-610-4736",
+      "phone": "(757)-610-4736",
       "mail": "info@bluelagoonva.com",
-      "address": "200 ROBINSON WAY WINDSOR VA 23487-9439 USA",
+      "address": "1905 Bitter Root Ct Virginia Beach Va 23456",
+      "work-time": "Monday to Friday 9:00 - 17:00\nWeekends: Closed",
       "contact-us": "Contact Us",
       "first-name": "First Name",
       "last-name": "Last Name",
@@ -32,10 +33,10 @@
         "subtitle": "Get to know the team"
       },
       "poolDesignInfo": {
-        "blueTitle": "30+ YEARS OF AWARD-WINNING POOL DESIGN & CONSTRUCTION",
-        "title": "Custom Swimming Pools and Spas for Every Lifestyle",
-        "p1": "With a legacy dating back to 1985, our team has honed the art of crafting custom pools that exceed expectations. Beyond pools, we elevate your entire backyard experience – from enchanting fireplaces and fire pits to meticulous fence installations and driveways. You can read more on the services we provide here.",
-        "p2": "Blue Lagoon is currently based in Virginia Beach,VA and here is where expertise meets creativity in transforming your outdoor space into a haven of relaxation and entertainment.",
+        "title": "Custom Swimming Pools and Exterior Services for Every Lifestyle",
+        "p1": "With a legacy dating back to 1985, our team has honed the art of crafting custom pools that exceed expectations. Beyond pools, we elevate your entire backyard experience – from enchanting fireplaces and fire pits to meticulous fence installations and driveways. You can read more on the services we provide ",
+        "p2": "Blue Lagoon is currently based in Virginia Beach, VA and operates in all Tidewater areas. Here is where expertise meets creativity in transforming your outdoor space into a heaven of relaxation and entertainment.",
+        "rest": "With over 3500 successfully completed projects, we take pride in turning your outdoor dreams into stunning realities.\n\nThe philosophy of our company rests upon principles of organization, unwavering consistency, and reliability, all geared towards delivering top-tier services. We seamlessly manage every aspect of your project – from conceptual design and procurement of equipment and materials to construction and ongoing maintenance.\n\nBy choosing Blue Lagoon you get to experience high-end expertise in pool craftsmanship and a longstanding commitment to perfecting every aspect of your pool.",
         "buttonText": "More About Us"
       },
       "p3": "With over 3500 successfully completed projects, we take pride in turning your outdoor dreams into stunning realities.",
@@ -66,37 +67,37 @@
         "title": "Experts in Swimming Pool Building & Renovation",
         "p1": "As Washington's premier pool designer and builder, we've been trusted by thousands of homeowners to create their custom, luxury pool from the ground up. Our pools and spas are built to last and provide families with many years of backyard enjoyment.",
         "p2": "In addition to new pool designs, we also do pool renovations, from resurfacing the interior to adding a spa and installing digital controls. Or go all in with a spectacular full redesign. We'll breathe new life into your tired, old pool and transform it into a showpiece that adds value to your home.",
-        "ourService": "Our Services"
+        "ourService": "More details"
       }
     },
     "list_of_services": [
       {
-        "title": "Liner and Fiberglass Pools",
+        "title": "LINER AND FIBERGLASS POOLS",
         "description": "Liner and fiberglass pools involve the creation of swimming pools using either liners or fiberglass. This service encompasses the entire process from A to Z, from design to installation, with the added benefit of providing 3D designs to visualize the final outcome. By constructing a brand-new pool, customers can expect comprehensive solutions tailored to their preferences and needs. The incorporation of 3D designs allows clients to explore various options and make informed decisions before the actual installation begins, ensuring satisfaction with the final result.",
         "showInFooter": true
       },
       {
-        "title": "Liner Replacement",
+        "title": "LINER REPLACEMENT",
         "description": "A pool liner replacement involves removing the existing liner of a swimming pool and installing a new one. This is typically done when the current liner is damaged, worn out, or no longer functioning properly. It's a process that requires draining the pool, removing the old liner, preparing the pool surface, and then installing the new liner with precision to ensure a watertight seal.",
         "showInFooter": true
       },
       {
-        "title": "Pool Services",
-        "description": "We offer a range of pool services that aim at maintaining and enhancing the functionality and enjoyment of swimming pools.\n - Opening and closing(mechanical only).\n - Filter and Pump Upgrade & Repairs.\n - Salt system installation.\n - Automatic and Safety cover sales, replacements & repairs.\n - Pool Heater installation & repairs.",
+        "title": "POOL SERVICES",
+        "description": "We offer a range of pool services that aim at maintaining and enhancing the functionality and enjoyment of swimming pools. \n• Opening and closing pools (mechanical only)\n• Filter and Pump Upgrade & Repairs\n• Salt system installation\n• Automatic and Safety cover sales, replacements & repairs\n• Pool Heater installation & repairs",
         "showInFooter": true
       },
       {
-        "title": "Driveway Makeover",
+        "title": "DRIVEWAY MAKEOVER",
         "description": "Our driveway makeover service entails the redesign and installation of both new and existing driveways to enhance their aesthetic appeal and functionality. This comprehensive service covers everything from conceptualizing new driveway designs to installing them on both freshly constructed surfaces and older driveways in need of renovation. By offering solutions for both new and old driveways, we cater to homeowners looking to improve their property's curb appeal and usability while accommodating a range of preferences and budgets.",
         "showInFooter": true
       },
       {
-        "title": "Patio & Outdoor Kitchen",
+        "title": "PATIO & OUTDOOR KITCHEN",
         "description": "This service involves the redesign and/or installation of outdoor living spaces, including patios and kitchen areas, to enhance their appearance and functionality. It includes the creation of 3D designs to visualize the proposed changes before installation begins. Whether it's revamping an existing patio or creating a brand-new outdoor kitchen, our team provides expertise in design, material selection, and installation to ensure a seamless and visually appealing result. Our goal is to transform outdoor spaces into inviting and functional areas for relaxation, entertainment, and culinary enjoyment.",
         "showInFooter": true
       },
       {
-        "title": "Fireplace & Firepit",
+        "title": "FIREPLACE & FIREPIT",
         "description": "A fireplace and fire pit design and installation service involve the creation of custom-designed outdoor fire features tailored to enhance the ambiance and functionality of a space. We aim to create a focal point that adds warmth, ambiance, and value to the property while fostering memorable experiences for homeowners and their guests.",
         "showInFooter": true
       }

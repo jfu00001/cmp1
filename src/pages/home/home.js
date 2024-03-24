@@ -3,7 +3,6 @@ import { css } from "@emotion/react";
 import CarouselWithText from "../../common/carouselwithtext/carouselwithtext";
 import { useTranslation } from "react-i18next";
 import PoolDesignInfo from "../../common/pooldesigninfo/pooldesigninfo";
-import PoolDesignInfoImage from "./pooldesigninfo/PoolDesignInfo.png";
 import ServiceSection from "../../common/servicesection/servicesection";
 import PoolIcon from "./servicesection/new-pool-icon.png";
 import SpaIcon from "./servicesection/spa-icon.png";
@@ -56,8 +55,6 @@ function Home() {
         `}
       >
         <PoolDesignInfo
-          imageSrc={PoolDesignInfoImage}
-          blueTitle={t("about-us.poolDesignInfo.blueTitle")}
           title={t("about-us.poolDesignInfo.title")}
           p1={t("about-us.poolDesignInfo.p1")}
           p2={t("about-us.poolDesignInfo.p2")}

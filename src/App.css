@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: "Black";
+  src: local("CeraPro-Black"), url("./fonts/CeraPro-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BlackItalic";
+  src: local("CeraPro-BlackItalic"), url("./fonts/CeraPro-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bold";
+  src: local("CeraPro-Bold"), url("./fonts/CeraPro-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BoldItalic";
+  src: local("CeraPro-BoldItalic"), url("./fonts/CeraPro-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Light";
+  src: local("CeraPro-Light"), url("./fonts/CeraPro-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LightItalic";
+  src: local("CeraPro-LightItalic"), url("./fonts/CeraPro-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Medium";
+  src: local("CeraPro-Medium"), url("./fonts/CeraPro-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MediumItalic";
+  src: local("CeraPro-MediumItalic"), url("./fonts/CeraPro-MediumItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Regular";
+  src: local("CeraPro-Regular"), url("./fonts/CeraPro-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "RegularItalic";
+  src: local("CeraPro-RegularItalic"), url("./fonts/CeraPro-RegularItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Thin";
+  src: local("CeraPro-Thin"), url("./fonts/CeraPro-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ThinItalic";
+  src: local("CeraPro-ThinItalic"), url("./fonts/CeraPro-ThinItalic.ttf") format("truetype");
+}
+

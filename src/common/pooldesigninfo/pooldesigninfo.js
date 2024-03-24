@@ -46,7 +46,7 @@ const textStyles = css`
 `;
 
 const buttonStyle = css`
-  width: 10vw;
+  width: fit-content;
   border-radius: 100px;
   background-color: var(--Brand-colors-deep_blue, #0c85a7);
   color: #fff;
@@ -73,41 +73,7 @@ function PoolDesignInfo(props) {
             }
           `}
         >
-          <div
-            css={css`
-              display: flex;
-              flex-direction: column;
-              line-height: normal;
-              width: 100%;
-              margin-left: 0;
-              @media (max-width: 991px) {
-                width: 100%;
-              }
-            `}
-          >
-            <img
-              loading="lazy"
-              src={props.imageSrc}
-              alt="pool design info"
-              css={css`
-                object-fit: cover;
-                width: 100%;
-                @media (max-width: 991px) {
-                  margin-top: 32px;
-                }
-              `}
-            />
-          </div>
           <div css={textContainer}>
-            <div
-              css={css`
-                ${textStyles}
-                color: var(--Brand-colors-deep_blue, #0C85A7);
-                font-family: "Cera Pro", sans-serif;
-              `}
-            >
-              {props.blueTitle}
-            </div>
             <h2
               css={css`
                 ${textStyles}
@@ -125,6 +91,15 @@ function PoolDesignInfo(props) {
               `}
             >
               {props.p1}
+              <Link
+                css={css`
+                  color: #0c85a7;
+                `}
+                to="/services"
+              >
+                here
+              </Link>
+              .
             </p>
             <p
               css={css`
@@ -135,7 +110,7 @@ function PoolDesignInfo(props) {
             >
               {props.p2}
             </p>
-            <Link to="/aboutus" css={css`text-align: center;}`}>
+            <Link to="/aboutus" css={css`text-align: left;}`}>
               <button css={buttonStyle}> {props.buttonText}</button>
             </Link>
           </div>
