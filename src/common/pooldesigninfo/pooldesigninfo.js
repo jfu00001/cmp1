@@ -53,6 +53,7 @@ const buttonStyle = css`
   text-align: center;
   line-height: 150%;
   padding: 8px 24px;
+  font-family: "CeraPro-Regular";
   @media (max-width: 991px) {
     width: 40vw;
     padding: 8px 20px;
