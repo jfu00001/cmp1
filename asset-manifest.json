@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BlueLagoonPools/static/css/main.18adead3.css",
-    "main.js": "/BlueLagoonPools/static/js/main.eef8075a.js",
+    "main.css": "/BlueLagoonPools/static/css/main.07394bea.css",
+    "main.js": "/BlueLagoonPools/static/js/main.eb3744a9.js",
     "static/js/453.4f7b8fa9.chunk.js": "/BlueLagoonPools/static/js/453.4f7b8fa9.chunk.js",
     "static/media/Camera Pictures to be organized 158.jpg": "/BlueLagoonPools/static/media/Camera Pictures to be organized 158.0628560449b039730289.jpg",
     "static/media/homerama2011 020 (1).jpg": "/BlueLagoonPools/static/media/homerama2011 020 (1).1e0f46f1fb534976ab9a.jpg",
@@ -13,12 +13,12 @@
     "static/media/2012NEW 638.jpg": "/BlueLagoonPools/static/media/2012NEW 638.16f21aa5ab5ed80dd573.jpg",
     "static/media/SAVVAS-SUFFOLK-8 014.jpg": "/BlueLagoonPools/static/media/SAVVAS-SUFFOLK-8 014.48829463b16b41ba96a3.jpg",
     "static/media/SAVVAS-08 053.jpg": "/BlueLagoonPools/static/media/SAVVAS-08 053.f8cadad9be6fcea4ec73.jpg",
-    "static/media/services.png": "/BlueLagoonPools/static/media/services.6f104e65f8ca5b258df7.png",
     "static/media/projects.png": "/BlueLagoonPools/static/media/projects.f3fd019f30335e0ae73f.png",
     "static/media/thumbnail_2012NEW 647 (1).jpg": "/BlueLagoonPools/static/media/thumbnail_2012NEW 647 (1).566ddbf112f15420ef27.jpg",
     "static/media/thumbnail_IMG_3448.jpg": "/BlueLagoonPools/static/media/thumbnail_IMG_3448.44132145e70e320edc05.jpg",
     "static/media/2.jpg": "/BlueLagoonPools/static/media/2.9045850a9f8edf81179d.jpg",
     "static/media/PHOTO-2024-02-22-16-59-03.jpg": "/BlueLagoonPools/static/media/PHOTO-2024-02-22-16-59-03.9045850a9f8edf81179d.jpg",
+    "static/media/services.png": "/BlueLagoonPools/static/media/services.88170e51bbf8aad0db8a.png",
     "static/media/PHOTO-2024-02-22-16-57-54.jpg": "/BlueLagoonPools/static/media/PHOTO-2024-02-22-16-57-54.ffeeea5b58de2eaf5645.jpg",
     "static/media/aboutus.png": "/BlueLagoonPools/static/media/aboutus.fbb813c4ba0a773632d2.png",
     "static/media/thumbnail_2012NEW 316.jpg": "/BlueLagoonPools/static/media/thumbnail_2012NEW 316.e329dc81d829506a4826.jpg",
@@ -45,12 +45,12 @@
     "static/media/footer-logo.svg": "/BlueLagoonPools/static/media/footer-logo.6814eed666682e720e0d98ffe3f8a6b8.svg",
     "static/media/logo.svg": "/BlueLagoonPools/static/media/logo.9eafd93d5528fd6b5b3cb3e913a4a2d1.svg",
     "index.html": "/BlueLagoonPools/index.html",
-    "main.18adead3.css.map": "/BlueLagoonPools/static/css/main.18adead3.css.map",
-    "main.eef8075a.js.map": "/BlueLagoonPools/static/js/main.eef8075a.js.map",
+    "main.07394bea.css.map": "/BlueLagoonPools/static/css/main.07394bea.css.map",
+    "main.eb3744a9.js.map": "/BlueLagoonPools/static/js/main.eb3744a9.js.map",
     "453.4f7b8fa9.chunk.js.map": "/BlueLagoonPools/static/js/453.4f7b8fa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18adead3.css",
-    "static/js/main.eef8075a.js"
+    "static/css/main.07394bea.css",
+    "static/js/main.eb3744a9.js"
   ]
 }
