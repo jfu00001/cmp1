@@ -39,7 +39,11 @@ function Navbar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography
+        variant="h6"
+        sx={{ my: 2 }}
+        style={{ fontFamily: "CeraPro-Regular" }}
+      >
         <img
           src={logo}
           alt="Logo"
@@ -106,6 +110,7 @@ function Navbar(props) {
 
           <Typography
             variant="h6"
+            style={{ fontFamily: "CeraPro-Regular" }}
             component="div"
             sx={{
               flexGrow: 1,

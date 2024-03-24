@@ -85,5 +85,5 @@
   src: local("CeraPro-ThinItalic"), url("./fonts/CeraPro-ThinItalic.ttf") format("truetype");
 }
 body {
-  font-family: CeraPro-Regular;
+  font-family: CeraPro-Regular !important;
 }

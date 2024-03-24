@@ -1,6 +1,10 @@
+body, html { 
+  font-family: 'CeraPro-Regular';
+}
+
 body {
   margin: 0;
-  font-family: CeraPro-Regular;
+  font-family: CeraPro-Regular !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

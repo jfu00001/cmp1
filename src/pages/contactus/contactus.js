@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { isMobile } from "react-device-detect";
 import ContactInfo from "../../common/contactInfo/contactInfo";
 import emailjs from "@emailjs/browser";
-import { useRef } from 'react';
+import { useRef } from "react";
 import configData from "../../config.json";
 
 const ContactUs = () => {
@@ -13,14 +13,9 @@ const ContactUs = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     emailjs
-      .sendForm(
-        configData.serviceID,
-        configData.templateID,
-        form.current,
-        {
-          publicKey: configData.publicKey,
-        }
-      )
+      .sendForm(configData.serviceID, configData.templateID, form.current, {
+        publicKey: configData.publicKey,
+      })
       .then(
         () => {
           alert("SUCCESS!");
@@ -54,7 +49,9 @@ const ContactUs = () => {
             alignItems: "Left",
           }}
         >
-          <Typography variant="h4"> {t("contact-us.contact-us")}</Typography>
+          <Typography variant="h4" style={{ fontFamily: "CeraPro-Regular" }}>
+            {t("contact-us.contact-us")}
+          </Typography>
         </Box>
         <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
           <Box

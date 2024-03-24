@@ -35,8 +35,18 @@ function BannerWithText(props) {
               whiteSpace: "nowrap",
             }}
           >
-            <Typography variant={styles.title}>{props.title}</Typography>
-            <Typography variant={styles.subtitle}>{props.subtitle}</Typography>
+            <Typography
+              variant={styles.title}
+              style={{ fontFamily: "CeraPro-Regular" }}
+            >
+              {props.title}
+            </Typography>
+            <Typography
+              variant={styles.subtitle}
+              style={{ fontFamily: "CeraPro-Regular" }}
+            >
+              {props.subtitle}
+            </Typography>
           </div>
         </div>
       </div>

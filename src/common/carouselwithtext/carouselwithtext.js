@@ -66,7 +66,12 @@ function CarouselCustomNavigation(props) {
           ))}
         </Carousel>
         <div className="banner-text" style={styles.bannerStyle}>
-          <Typography variant={styles.title}>{props.title}</Typography>
+          <Typography
+            variant={styles.title}
+            style={{ fontFamily: "CeraPro-Regular" }}
+          >
+            {props.title}
+          </Typography>
         </div>
       </div>
     </>
