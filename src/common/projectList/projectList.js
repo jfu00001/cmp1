@@ -53,7 +53,7 @@ function ProjectList(props) {
         <h1
           css={css`
             margin-top: 8px;
-            font: 34px "Cera Pro", sans-serif;
+            font: 34px "CeraPro-Regular";
             text-transform: capitalize;
 
           `}

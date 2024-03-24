@@ -32,7 +32,7 @@ function LatestProjects(props) {
         <h2
           css={css`
             color: var(--Shades-blacks-black, #010a0d);
-            font: 300 34px/150% Cera Pro, sans-serif;
+            font: 300 34px/150% CeraPro-Regular;
             @media (max-width: 991px) {
               max-width: 100%;
             }
@@ -90,7 +90,7 @@ function LatestProjects(props) {
             border-radius: var(--radius-lg-max-circle, 100px);
             background-color: var(--Brand-colors-deep_blue, #0c85a7);
             color: var(--color-typography-on-color---white, #fff);
-            font: 16px/150% Cera Pro, sans-serif;
+            font: 16px/150% CeraPro-Regular;
 
             @media (max-width: 991px) {
               padding: 10px 20px;

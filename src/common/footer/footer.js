@@ -19,7 +19,7 @@ const boxShadowStyle = css`
 `;
 
 const textStyle = css`
-  font-family: "Cera Pro", sans-serif;
+  font-family: "CeraPro-Regular";
   color: var(--Shades-whites-white2, #f7f8f9);
   @media (max-width: 991px) {
     margin-top: 40px;
@@ -27,7 +27,7 @@ const textStyle = css`
 `;
 
 const contactTextStyle = css`
-  font-family: "Cera Pro", sans-serif;
+  font-family: "CeraPro-Regular";
   color: var(--Shades-whites-white2, #f7f8f9);
   @media (max-width: 991px) {
     margin-top: 0;

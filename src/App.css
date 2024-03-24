@@ -37,51 +37,53 @@
   }
 }
 @font-face {
-  font-family: "Black";
+  font-family: "CeraPro-Black";
   src: local("CeraPro-Black"), url("./fonts/CeraPro-Black.ttf") format("truetype");
 }
 @font-face {
-  font-family: "BlackItalic";
+  font-family: "CeraPro-BlackItalic";
   src: local("CeraPro-BlackItalic"), url("./fonts/CeraPro-BlackItalic.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Bold";
+  font-family: "CeraPro-Bold";
   src: local("CeraPro-Bold"), url("./fonts/CeraPro-Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "BoldItalic";
+  font-family: "CeraPro-BoldItalic";
   src: local("CeraPro-BoldItalic"), url("./fonts/CeraPro-BoldItalic.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Light";
+  font-family: "CeraPro-Light";
   src: local("CeraPro-Light"), url("./fonts/CeraPro-Light.ttf") format("truetype");
 }
 @font-face {
-  font-family: "LightItalic";
+  font-family: "CeraPro-LightItalic";
   src: local("CeraPro-LightItalic"), url("./fonts/CeraPro-LightItalic.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Medium";
+  font-family: "CeraPro-Medium";
   src: local("CeraPro-Medium"), url("./fonts/CeraPro-Medium.ttf") format("truetype");
 }
 @font-face {
-  font-family: "MediumItalic";
+  font-family: "CeraPro-MediumItalic";
   src: local("CeraPro-MediumItalic"), url("./fonts/CeraPro-MediumItalic.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Regular";
+  font-family: "CeraPro-Regular";
   src: local("CeraPro-Regular"), url("./fonts/CeraPro-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "RegularItalic";
+  font-family: "CeraPro-RegularItalic";
   src: local("CeraPro-RegularItalic"), url("./fonts/CeraPro-RegularItalic.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Thin";
+  font-family: "CeraPro-Thin";
   src: local("CeraPro-Thin"), url("./fonts/CeraPro-Thin.ttf") format("truetype");
 }
 @font-face {
-  font-family: "ThinItalic";
+  font-family: "CeraPro-ThinItalic";
   src: local("CeraPro-ThinItalic"), url("./fonts/CeraPro-ThinItalic.ttf") format("truetype");
 }
-
+body {
+  font-family: CeraPro-Regular;
+}

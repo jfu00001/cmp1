@@ -14,7 +14,7 @@ function Services() {
     background-color: #0c85a7;
     color: #fff;
     padding: 54px 32px;
-    font: 400 34px/129% "Cera Pro", sans-serif;
+    font: 400 34px/129% "CeraPro-Regular";
     margin-top: 30px;
     text-align: center;
     @media (max-width: 991px) {

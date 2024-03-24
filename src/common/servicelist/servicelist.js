@@ -22,7 +22,7 @@ const ServiceCard = ({ title, description }) => (
   >
     <h3
       css={css`
-        font: 400 20px/150% Cera Pro, sans-serif;
+        font: 400 20px/150% CeraPro-Regular;
         white-space: nowrap;
 
         @media (max-width: 991px) {
@@ -35,7 +35,7 @@ const ServiceCard = ({ title, description }) => (
     <p
       css={css`
         margin-top: 8px;
-        font: 300 16px/24px Cera Pro, sans-serif;
+        font: 300 16px/24px CeraPro-Regular;
         white-space: pre-line;
       `}
     >

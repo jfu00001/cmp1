@@ -78,7 +78,7 @@ function PoolDesignInfo(props) {
               css={css`
                 ${textStyles}
                 margin-top: 8px;
-                font: 34px "Cera Pro", sans-serif;
+                font: 34px "CeraPro-Regular";
               `}
             >
               {props.title}
@@ -87,7 +87,7 @@ function PoolDesignInfo(props) {
               css={css`
                 ${textStyles}
                 margin-top: 20px;
-                font-family: "Cera Pro", sans-serif;
+                font-family: "CeraPro-Regular";
               `}
             >
               {props.p1}
@@ -104,7 +104,7 @@ function PoolDesignInfo(props) {
             <p
               css={css`
                 ${textStyles}
-                font-family: 'Inter', sans-serif;
+                font-family: "CeraPro-Regular";
                 line-height: 24px;
               `}
             >
@@ -113,7 +113,7 @@ function PoolDesignInfo(props) {
             <p
               css={css`
                 ${textStyles}
-                font-family: 'Inter', sans-serif;
+                font-family: "CeraPro-Regular";
                 line-height: 24px;
               `}
             >

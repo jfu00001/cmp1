@@ -6,7 +6,7 @@ const BorderedText = ({ children }) => (
   <div
     css={css`
       display: flex;
-      font-family: Cera Pro, sans-serif;
+      font-family: CeraPro-Regular;
       justify-content: center;
       border-radius: var(--radius-lg-max-circle, 100px);
       border: 1px solid rgba(1, 10, 13, 1);
@@ -42,12 +42,12 @@ function ServiceSection(props) {
       <h1
         css={css`
           color: var(--Shades-blacks-black, #010a0d);
-          font: 34px "Cera Pro", sans-serif;
+          font: 34px "CeraPro-Regular";
 
           @media (max-width: 991px) {
             max-width: 100%;
             padding-top: 20px;
-            font: 24px "Cera Pro", sans-serif;
+            font: 24px "CeraPro-Regular";
           }
         `}
       >
@@ -120,7 +120,7 @@ function ServiceSection(props) {
             border-radius: var(--radius-lg-max-circle, 100px);
             background-color: var(--Brand-colors-deep_blue, #0c85a7);
             color: var(--color-typography-on-color---white, #fff);
-            font: 16px/150% Cera Pro, sans-serif;
+            font: 16px/150% CeraPro-Regular;
 
             @media (max-width: 991px) {
               padding: 10px 20px;

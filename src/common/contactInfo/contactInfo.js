@@ -57,7 +57,7 @@ const ContactInfo = (props) => (
           <div
             css={css`
               text-align: center;
-              font-family: "Font Awesome 6 Pro", sans-serif;
+              font-family: "CeraPro-Regular";
               font-weight: 900;
               line-height: 90%;
               margin: auto 0;
@@ -67,7 +67,7 @@ const ContactInfo = (props) => (
           </div>
           <div
             css={css`
-              font-family: "Cera Pro", sans-serif;
+              font-family: "CeraPro-Regular";
               font-weight: 500;
             `}
           >
@@ -104,7 +104,7 @@ const ContactInfo = (props) => (
           <div
             css={css`
               text-align: center;
-              font-family: "Font Awesome 6 Pro", sans-serif;
+              font-family: "CeraPro-Regular";
               font-weight: 900;
               line-height: 90%;
               margin: auto 0;
@@ -114,7 +114,7 @@ const ContactInfo = (props) => (
           </div>
           <div
             css={css`
-              font-family: "Cera Pro", sans-serif;
+              font-family: "CeraPro-Regular";
               font-weight: 500;
             `}
           >
@@ -151,7 +151,7 @@ const ContactInfo = (props) => (
           <div
             css={css`
               text-align: center;
-              font-family: "Font Awesome 6 Pro", sans-serif;
+              font-family: "CeraPro-Regular";
               font-weight: 900;
               line-height: 90%;
               margin: auto 0;
@@ -161,7 +161,7 @@ const ContactInfo = (props) => (
           </div>
           <div
             css={css`
-              font-family: "Cera Pro", sans-serif;
+              font-family: "CeraPro-Regular";
               font-weight: 500;
             `}
           >
@@ -199,7 +199,7 @@ const ContactInfo = (props) => (
           <div
             css={css`
               text-align: center;
-              font-family: "Font Awesome 6 Pro", sans-serif;
+              font-family: "CeraPro-Regular";
               font-weight: 900;
               line-height: 90%;
               margin: auto 0;
@@ -209,7 +209,7 @@ const ContactInfo = (props) => (
           </div>
           <div
             css={css`
-              font-family: "Cera Pro", sans-serif;
+              font-family: "CeraPro-Regular";
               font-weight: 500;
             `}
           >

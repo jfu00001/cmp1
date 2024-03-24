@@ -39,7 +39,7 @@ const contentStyles = css`
 
 const titleStyles = css`
   text-align: center;
-  font: 40px Cera Pro, sans-serif;
+  font: 40px CeraPro-Regular;
 `;
 
 const dividerStyles = css`
@@ -53,7 +53,7 @@ const dividerStyles = css`
 const descriptionStyles = css`
   align-self: stretch;
   margin-top: 16px;
-  font: 18px/24px Cera Pro, sans-serif;
+  font: 18px/24px CeraPro-Regular;
 
   @media (max-width: 991px) {
     max-width: 100%;
@@ -82,7 +82,7 @@ function GetInTouch(props) {
             border-radius: var(--radius-lg-max-circle, 100px);
             background-color: var(--Brand-colors-sand, #c08950);
             color: var(--color-typography-on-color---white, #fff);
-            font: 16px/150% Cera Pro, sans-serif;
+            font: 16px/150% CeraPro-Regular;
 
             @media (max-width: 991px) {
               padding: 10px 20px;
