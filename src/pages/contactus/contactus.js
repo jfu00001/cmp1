@@ -26,7 +26,6 @@ const ContactUs = () => {
           alert("SUCCESS!");
         },
         (error) => {
-          console.log(error)
           alert("FAILED...", error.text);
         }
       );
