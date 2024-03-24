@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1426de44.css",
-    "main.js": "/static/js/main.ed88af38.js",
+    "main.js": "/static/js/main.a6f7fc18.js",
     "static/js/453.4f7b8fa9.chunk.js": "/static/js/453.4f7b8fa9.chunk.js",
     "static/media/Camera Pictures to be organized 158.jpg": "/static/media/Camera Pictures to be organized 158.0628560449b039730289.jpg",
     "static/media/homerama2011 020 (1).jpg": "/static/media/homerama2011 020 (1).1e0f46f1fb534976ab9a.jpg",
@@ -29,7 +29,6 @@
     "static/media/3.jpg": "/static/media/3.e164f65adaad68e4c950.jpg",
     "static/media/PHOTO-2024-02-22-16-05-15.jpg": "/static/media/PHOTO-2024-02-22-16-05-15.e164f65adaad68e4c950.jpg",
     "static/media/IMG_1633.jpg": "/static/media/IMG_1633.aa5fdc18f627c3215976.jpg",
-    "static/media/IMG_1632.jpg": "/static/media/IMG_1632.c79acce48f1d41e62a27.jpg",
     "static/media/CeraPro-LightItalic.ttf": "/static/media/CeraPro-LightItalic.9dd241fde039c153d440.ttf",
     "static/media/CeraPro-RegularItalic.ttf": "/static/media/CeraPro-RegularItalic.c3a5cd78f6861b806129.ttf",
     "static/media/CeraPro-MediumItalic.ttf": "/static/media/CeraPro-MediumItalic.e5f759b74eb27d3b0e1c.ttf",
@@ -46,11 +45,11 @@
     "static/media/logo.svg": "/static/media/logo.9eafd93d5528fd6b5b3cb3e913a4a2d1.svg",
     "index.html": "/index.html",
     "main.1426de44.css.map": "/static/css/main.1426de44.css.map",
-    "main.ed88af38.js.map": "/static/js/main.ed88af38.js.map",
+    "main.a6f7fc18.js.map": "/static/js/main.a6f7fc18.js.map",
     "453.4f7b8fa9.chunk.js.map": "/static/js/453.4f7b8fa9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1426de44.css",
-    "static/js/main.ed88af38.js"
+    "static/js/main.a6f7fc18.js"
   ]
 }
