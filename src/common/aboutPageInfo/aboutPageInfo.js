@@ -38,7 +38,6 @@ const textContainer = css`
 
 const textStyles = css`
   color: var(--Shades-blacks-black, #010a0d);
-  font-weight: 300;
   font-size: 16px;
   @media (max-width: 991px) {
     max-width: 100%;

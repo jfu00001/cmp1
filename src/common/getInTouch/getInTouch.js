@@ -22,7 +22,6 @@ const innerContainerStyles = css`
   width: 100%;
   padding: 0 60px;
   color: var(--Shades-whites-white, #fff);
-  font-weight: 400;
 
   @media (max-width: 991px) {
     max-width: 100%;

@@ -58,7 +58,6 @@ const ContactInfo = (props) => (
             css={css`
               text-align: center;
               font-family: "CeraPro-Regular";
-              font-weight: 900;
               line-height: 90%;
               margin: auto 0;
             `}
@@ -68,7 +67,6 @@ const ContactInfo = (props) => (
           <div
             css={css`
               font-family: "CeraPro-Regular";
-              font-weight: 500;
             `}
           >
             {props.phone}
@@ -105,7 +103,6 @@ const ContactInfo = (props) => (
             css={css`
               text-align: center;
               font-family: "CeraPro-Regular";
-              font-weight: 900;
               line-height: 90%;
               margin: auto 0;
             `}
@@ -115,7 +112,6 @@ const ContactInfo = (props) => (
           <div
             css={css`
               font-family: "CeraPro-Regular";
-              font-weight: 500;
             `}
           >
             {props.mail}
@@ -152,7 +148,6 @@ const ContactInfo = (props) => (
             css={css`
               text-align: center;
               font-family: "CeraPro-Regular";
-              font-weight: 900;
               line-height: 90%;
               margin: auto 0;
             `}
@@ -162,7 +157,6 @@ const ContactInfo = (props) => (
           <div
             css={css`
               font-family: "CeraPro-Regular";
-              font-weight: 500;
             `}
           >
             {props.address}
@@ -200,7 +194,6 @@ const ContactInfo = (props) => (
             css={css`
               text-align: center;
               font-family: "CeraPro-Regular";
-              font-weight: 900;
               line-height: 90%;
               margin: auto 0;
             `}
@@ -210,7 +203,6 @@ const ContactInfo = (props) => (
           <div
             css={css`
               font-family: "CeraPro-Regular";
-              font-weight: 500;
             `}
           >
             {props.workTime}

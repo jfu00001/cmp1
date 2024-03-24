@@ -41,7 +41,6 @@ const SectionTitle = ({ children }) => (
       textStyle,
       css`
         font-size: 24px;
-        font-weight: 500;
       `,
     ]}
   >
@@ -100,7 +99,6 @@ const PoolDesignerInfo = () => {
           css`
             margin-top: 12px;
             font-size: 20px;
-            font-weight: 400;
             line-height: 30px;
             white-space: pre-line;
           `,
