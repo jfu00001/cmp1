@@ -148,7 +148,12 @@ function Navbar(props) {
                     {item[1]}
                   </Button>
                 ) : (
-                  <Button sx={{ color: "black" }}>{item[1]}</Button>
+                  <Button
+                    sx={{ color: "black" }}
+                    style={{ fontFamily: "CeraPro-Regular" }}
+                  >
+                    {item[1]}
+                  </Button>
                 )}
               </Link>
             ))}
