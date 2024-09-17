@@ -23,9 +23,9 @@ function Navbar(props) {
   const { t } = useTranslation();
   let navItems = [
     ["/", t("navbar.home")],
-    ["/aboutus", t("navbar.about-us")],
     ["/services", t("navbar.services")],
     ["/projects", t("navbar.projects")],
+    ["/aboutus", t("navbar.about-us")],
     ["/contactus", t("navbar.contact-us")],
   ];
 
@@ -54,7 +54,7 @@ function Navbar(props) {
       <List>
         {navItems.map((item) => (
           <ListItem key={item[1]} sx={{ display: "block" }}>
-            <Link to={item[0]} sx={{ display: "inherit" }}>
+            <Link key={item[1]} to={item[0]} sx={{ display: "inherit" }}>
               {item[0] === location.pathname ? (
                 <Button
                   sx={{
@@ -87,7 +87,7 @@ function Navbar(props) {
       <AppBar component="nav" style={{ background: "white", height: "10vh" }}>
         <Toolbar style={{ height: "10vh" }}>
           <Box sx={{ display: { xs: "flex", md: "none" }, width: "100%" }}>
-            <Link to="/">
+            <Link key="home" to="/">
               <img src={logo} alt="Mobile Logo" style={{ height: "10vh" }} />
             </Link>
             <div
@@ -125,7 +125,7 @@ function Navbar(props) {
             `}
             color="black"
           >
-            <Link to="/">
+            <Link key="homeLogo" to="/">
               <img src={logo} alt="Logo" />
             </Link>
           </Typography>
@@ -138,7 +138,7 @@ function Navbar(props) {
             `}
           >
             {navItems.map((item) => (
-              <Link to={item[0]}>
+              <Link key={item[1]} to={item[0]}>
                 {item[0] === location.pathname ? (
                   <Button
                     sx={{ color: "white", backgroundColor: "#0585A6" }}

@@ -64,6 +64,7 @@ function LatestProjects(props) {
         >
           {props.latestProjects.map((project) => (
             <Card
+              key={project.imageSrc}
               css={css`
                 width: 25%;
                 @media (max-width: 991px) {

@@ -54,7 +54,7 @@ function ProjectList(props) {
             margin-top: 8px;
             font: 34px "CeraPro-Regular";
             text-transform: capitalize;
-
+            text-align: center;
           `}
         >
           {props.title}

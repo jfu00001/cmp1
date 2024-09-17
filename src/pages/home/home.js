@@ -7,10 +7,10 @@ import ServiceSection from "../../common/servicesection/servicesection";
 import LatestProjects from "../../common/latestProjects/latestProjects";
 import GetInTouch from "../../common/getInTouch/getInTouch";
 
-import LP1 from "../projects/imgs/pools/IMG_1634.jpg";
+import LP1 from "../projects/imgs/pools/pools new 2.png";
 import LP2 from "../projects/imgs/pools/PHOTO-2024-02-22-16-57-54.jpg";
 import LP3 from "../projects/imgs/pools/PHOTO-2024-02-22-16-56-33.jpg";
-import LP4 from "../projects/imgs/eveything around the pool/SAVVAS-08 053.jpg";
+import LP4 from "../projects/imgs/exterior landscaping/SAVVAS-08 053.jpg";
 
 function Home() {
   const carouselImages = require.context("./carouselimages", true);

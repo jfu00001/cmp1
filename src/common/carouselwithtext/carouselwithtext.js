@@ -39,8 +39,8 @@ function CarouselCustomNavigation(props) {
       <div className="carousel-with-text" style={{ height: styles.height }}>
         <Carousel
           transition={{ duration: 1 }}
-          autoplay="true"
-          loop="true"
+          autoplay={true}
+          loop={true}
           style={{ height: styles.height }}
           navigation={({ setActiveIndex, activeIndex, length }) => (
             <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">

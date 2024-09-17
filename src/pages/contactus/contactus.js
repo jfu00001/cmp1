@@ -28,6 +28,20 @@ const ContactUs = () => {
 
   const { t } = useTranslation();
 
+  const textFieldSx = {
+    // Root class for the input field
+    "& .MuiOutlinedInput-root": {
+      // Class for the border around the input field
+      "& .MuiOutlinedInput-notchedOutline": {
+        borderColor: "#0C85A7 ",
+        borderWidth: "1px",
+      },
+    },
+    // Class for the label of the input field
+    "& .MuiInputLabel-outlined": {
+    },
+  };
+
   return (
     <Container>
       <Box
@@ -38,6 +52,9 @@ const ContactUs = () => {
         style={{
           boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.12)",
           borderRadius: "10px",
+          backgroundColor: "white",
+          borderColor: "#0C85A7",
+          borderWidth: "thin",
         }}
       >
         <Box
@@ -68,6 +85,7 @@ const ContactUs = () => {
               autoComplete="given-name"
               variant="outlined"
               style={{ width: isMobile ? "100%" : "50%" }}
+              sx={textFieldSx}
             />
             <TextField
               required
@@ -77,6 +95,7 @@ const ContactUs = () => {
               autoComplete="family-name"
               variant="outlined"
               style={{ width: isMobile ? "100%" : "50%" }}
+              sx={textFieldSx}
             />
           </Box>
           <Box
@@ -94,6 +113,7 @@ const ContactUs = () => {
               autoComplete="email"
               variant="outlined"
               style={{ width: isMobile ? "100%" : "50%" }}
+              sx={textFieldSx}
             />
             <TextField
               required
@@ -103,6 +123,7 @@ const ContactUs = () => {
               autoComplete="tel"
               variant="outlined"
               style={{ width: isMobile ? "100%" : "50%" }}
+              sx={textFieldSx}
             />
           </Box>
           <TextField
@@ -113,6 +134,7 @@ const ContactUs = () => {
             multiline
             rows={6}
             variant="outlined"
+            sx={textFieldSx}
           />
         </Box>
         <Box sx={{ mt: 3, display: "flex", justifyContent: "flex-end" }}>

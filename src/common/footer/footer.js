@@ -145,7 +145,7 @@ const Services = () => {
       <SectionTitle>{t("services.bannerWithText.title")}</SectionTitle>
       {jsonData.translation.list_of_services.map((service) => {
         if (service.showInFooter) {
-          return <SectionItem>{service.title}</SectionItem>;
+          return <SectionItem key={service.title}>{service.title}</SectionItem>;
         }
         return null;
       })}

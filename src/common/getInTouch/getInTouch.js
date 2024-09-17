@@ -89,7 +89,7 @@ function GetInTouch(props) {
             }
           `}
         >
-          Contact Us
+          Get In Touch
         </button>
       </Link>
     </section>
