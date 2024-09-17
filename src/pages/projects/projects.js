@@ -16,7 +16,7 @@ function Projects() {
   imagePaths.map((path) => projects.push(path.split("/")[0]));
   projects = projects.filter(
     (value, index, array) => array.indexOf(value) === index
-  );
+  ).reverse();
 
   return (
     <>
